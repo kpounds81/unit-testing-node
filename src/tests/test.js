@@ -8,7 +8,7 @@ countLines(function (err, n) {
 });
 
 function countLines (cb) {
-  fs.readFile('file.txt', 'utf8', function (err, src) {
+  fs.readFile('./files/file.txt', 'utf8', function (err, src) {
     if (err) cb(err);
     else cb(null, src.trim().split('\n').length);
   })

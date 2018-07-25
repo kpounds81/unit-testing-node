@@ -6,6 +6,7 @@
   "author": "Keith Pounds <keith.pounds@autozone.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^5.2.0"
+    "eslint": "^5.2.0",
+    "tape": "^4.9.1"
   }
 }
